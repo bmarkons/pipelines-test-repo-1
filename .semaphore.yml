@@ -1,12 +1,7 @@
-version: "1.0"
-name: single stage
+version: "v1.0"
+name: basic GH repo test
 semaphore_image: "docker"
-stages:
-  - name: only stage
-    jobs:
-      - name: first job
-        cmds:
-          - echo foo
-          - echo bar
-      - cmds:
-          - echo baz
+build:
+  jobs:
+    - commands:
+        - echo foo
