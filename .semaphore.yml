@@ -1,5 +1,5 @@
 version: "v1.0"
-name: basic GH repo test
+name: Basic GH repo test in non-default-branch
 semaphore_image: "docker"
 build:
   jobs:
