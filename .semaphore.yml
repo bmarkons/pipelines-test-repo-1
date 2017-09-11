@@ -4,4 +4,4 @@ semaphore_image: "docker"
 build:
   jobs:
     - commands:
-        - echo foo
+        - echo Command in non-default-branch
