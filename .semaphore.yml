@@ -1,7 +1,8 @@
 version: "v1.0"
 name: basic GH repo test
 semaphore_image: "docker"
-build:
-  jobs:
-    - commands:
-        - echo foo
+blocks:
+  - build:
+      jobs:
+        - commands:
+          - echo foo
