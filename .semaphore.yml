@@ -6,3 +6,4 @@ blocks:
       jobs:
         - commands:
           - echo foo
+          - echo bar
