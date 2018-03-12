@@ -5,4 +5,5 @@ blocks:
   - build:
       jobs:
         - commands:
-          - echo foo
+          - echo $SECRET_ENV
+          - echo $SECRET_FILE
