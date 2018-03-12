@@ -6,4 +6,4 @@ blocks:
       jobs:
         - commands:
           - echo $SECRET_ENV
-          - echo $SECRET_FILE
+          - cat /home/runner/secret_file.txt
